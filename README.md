@@ -1,11 +1,7 @@
-Bitcore Library
+Bellcore Library
 =======
 
-[![NPM Package](https://img.shields.io/npm/v/bitcore-lib.svg?style=flat-square)](https://www.npmjs.org/package/bitcore-lib)
-[![Build Status](https://img.shields.io/travis/bitpay/bitcore-lib.svg?branch=master&style=flat-square)](https://travis-ci.org/bitpay/bitcore-lib)
-[![Coverage Status](https://img.shields.io/coveralls/bitpay/bitcore-lib.svg?style=flat-square)](https://coveralls.io/r/bitpay/bitcore-lib)
-
-A pure and powerful JavaScript Bitcoin library.
+A pure and powerful JavaScript Bellcoin library.
 
 ## Principles
 
@@ -14,11 +10,11 @@ Bitcoin is a powerful new peer-to-peer platform for the next generation of finan
 ## Get Started
 
 ```
-npm install bitcore-lib
+npm install git://gihub.com/yutotetuota/bellcore-lib.git
 ```
 
 ```
-bower install bitcore-lib
+bower install git://gihub.com/yutotetuota/bellcore-lib.git
 ```
 
 ## Documentation
@@ -55,7 +51,7 @@ Please send pull requests for bug fixes, code optimization, and ideas for improv
 
 ## Building the Browser Bundle
 
-To build a bitcore-lib full bundle for the browser:
+To build a bellcore-lib full bundle for the browser:
 
 ```sh
 gulp browser
@@ -75,8 +71,8 @@ To verify signatures, use the following PGP keys:
 ## Development & Tests
 
 ```sh
-git clone https://github.com/bitpay/bitcore-lib
-cd bitcore-lib
+git clone https://github.com/yutotetuota/bellcore-lib
+cd bellcore-lib
 npm install
 ```
 
@@ -91,6 +87,6 @@ or create a test coverage report (you can open `coverage/lcov-report/index.html`
 
 ## License
 
-Code released under [the MIT license](https://github.com/bitpay/bitcore-lib/blob/master/LICENSE).
+Code released under [the MIT license](https://github.com/yutotetuota/bellcore-lib/blob/master/LICENSE).
 
 Copyright 2013-2017 BitPay, Inc. Bitcore is a trademark maintained by BitPay, Inc.

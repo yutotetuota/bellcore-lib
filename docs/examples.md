@@ -1,4 +1,4 @@
-# Bitcore examples
+# Bellcore examples
 
 ## Generate a random address
 ```javascript
@@ -9,7 +9,7 @@ var address = privateKey.toAddress();
 
 ## Generate a address from a SHA256 hash
 ```javascript
-var value = Buffer.from('correct horse battery staple');
+var value = new Buffer('correct horse battery staple');
 var hash = bitcore.crypto.Hash.sha256(value);
 var bn = bitcore.crypto.BN.fromBuffer(hash);
 
@@ -42,7 +42,7 @@ var transaction = new bitcore.Transaction()
 
 ## Sign a Bitcoin message
 ```javascript
-var Message = require('bitcore-message');
+var Message = require('bellcore-message');
 
 var privateKey = new bitcore.PrivateKey('L23PpjkBQqpAF4vbMHNfTZAb3KFPBSawQ7KinFTzz7dxq6TZX8UA');
 var message = new Message('This is an example of a signed message.');
@@ -52,7 +52,7 @@ var signature = message.sign(privateKey);
 
 ## Verify a Bitcoin message
 ```javascript
-var Message = require('bitcore-message');
+var Message = require('bellcore-message');
 
 var address = '13Js7D3q4KvfSqgKN8LpNq57gcahrVc5JZ';
 var signature = 'IBOvIfsAs/da1e36W8kw1cQOPqPVXCW5zJgNQ5kI8m57FycZXdeFmeyoIqJSREzE4W7vfDmdmPk0HokuJPvgPPE=';

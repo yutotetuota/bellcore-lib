@@ -1,7 +1,7 @@
 {
-  "name": "bitcore-lib",
+  "name": "bellcore-lib",
   "version": "0.16.0",
-  "description": "A pure and powerful JavaScript Bitcoin library.",
+  "description": "A pure and powerful JavaScript Bellcoin library.",
   "author": "BitPay <dev@bitpay.com>",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
     "build": "gulp"
   },
   "keywords": [
-    "bitcoin",
+    "bellcoin",
     "transaction",
     "address",
     "p2p",
@@ -28,7 +28,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/bitpay/bitcore-lib.git"
+    "url": "https://github.com/yutotetuota/bellcore-lib.git"
   },
   "browser": {
     "request": "browser-request"
@@ -39,10 +39,11 @@
     "buffer-compare": "=1.1.1",
     "elliptic": "=6.4.0",
     "inherits": "=2.0.1",
-    "lodash": "=4.17.11"
+    "lodash": "=4.17.11",
+    "bellcoin-yespower": "git://github.com/yutotetuota/node-bellcoin-yespower.git"
   },
   "devDependencies": {
-    "bitcore-build": "https://github.com/bitpay/bitcore-build.git#1023e8a99cd42b9241ccafe8e34c52f308c10284",
+    "bitcore-build": "git://github.com/bitpay/bitcore-build.git#1023e8a99cd42b9241ccafe8e34c52f308c10284",
     "brfs": "^2.0.1",
     "chai": "^4.2.0",
     "gulp": "^4.0.0",
