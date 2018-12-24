@@ -116,7 +116,7 @@ var tx = new Transaction(data);
 
 ### Errors
 
-#### E1 - Use bellcore.Errors
+#### E1 - Use bitcore.Errors
 
 We've designed a structure for Errors to follow and are slowly migrating to it.
 
@@ -212,8 +212,8 @@ This helps to make tests more useful as examples, and more independent of where 
 
 DO:
 ```javascript
-var bellcore = require('../');
-var PublicKey = bellcore.PublicKey;
+var bitcore = require('../');
+var PublicKey = bitcore.PublicKey;
 ```
 DON'T:
 ```javascript
